@@ -1,6 +1,6 @@
 const request = require('request');
 const uploadCom = process.argv.slice(2);
-const search = 'https://api.hecatapi.com/v1/breeds/search/?q=';
+const search = 'https://api.thecatapi.com/v1/breeds/search/?q=';
 
 let find = search + uploadCom;
 
